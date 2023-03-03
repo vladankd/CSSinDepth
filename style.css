@@ -1,0 +1,16 @@
+body {
+  background-color: #3e8f4c;
+  color: #e3e7f2;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#page-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+}
