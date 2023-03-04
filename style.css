@@ -1,6 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   color: #2f4f4f;
   margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.title {
+  font: 32px Helvetica, Arial, sans-serif;
+}
+
+a:link {
+  color: blue;
 }
 
 .nav {
@@ -17,10 +30,28 @@ h1 {
   color: white;
   background-color: #13a4a4;
   text-decoration: none;
-  padding: 5px;
+  padding: 5px 15px;
   border-radius: 5px;
 }
 
 .nav .featured {
   background-color: orange;
+  box-shadow: 10px 2px #6f9090;
+}
+
+a.featured {
+  background-color: orange;
+}
+
+.footer {
+  background-color: bisque;
+  color: rgb(135, 135, 127);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: initial;
+  text-decoration: underline;
 }
