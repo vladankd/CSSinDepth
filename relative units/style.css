@@ -14,7 +14,9 @@
     font-size: 1em;
   }
 } */
-
+body {
+  line-height: 1.2;
+}
 .slogan {
   font-size: 1.2em;
   padding: 1.2em;
@@ -66,4 +68,8 @@ ul {
   background-color: #369;
   width: 90vmin;
   height: 90vmin;
+}
+
+.about-us {
+  font-size: 2em;
 }

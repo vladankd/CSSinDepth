@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom properties - CSS variables</title>
+    <link rel="stylesheet" href="new_style.css" />
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vero ea
+      ipsum, est maiores, nihil sint quidem molestiae quae illo exercitationem!
+      Iure odit hic voluptatem. Magni, laborum quasi? Et, pariatur!
+    </p>
+    <br /><br />
+    <div class="panel">
+      <h2>Single-origin</h2>
+      <div class="body">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut error iusto
+        deleniti accusamus labore, pariatur consequuntur officia impedit.
+        Laborum, minus officia? Aliquam in blanditiis nisi itaque accusantium
+        eligendi. Dolor, vero.
+      </div>
+    </div>
+    <aside class="dark">
+      <div class="panel">
+        <h2>Single-origin</h2>
+        <div class="body">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
+          eveniet ad velit suscipit maxime cum quasi laboriosam iusto numquam
+          sit reprehenderit ullam eius, beatae error consequuntur recusandae et
+          quidem quae!
+        </div>
+      </div>
+    </aside>
+  </body>
+  <script type="text/javascript">
+    var rootElement = document.documentElement;
+    var styles = getComputedStyle(rootElement);
+    var mainColor = styles.getPropertyValue("--main-bg");
+    console.log(String(mainColor).trim());
+    rootElement.style.setProperty("--main-bg", "#cdf");
+  </script>
+</html>
